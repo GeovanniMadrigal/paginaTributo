@@ -1,0 +1,49 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    background-color: beige;
+    padding: 8%;
+}
+#title{
+    font-size: 3.5em;
+    text-align: center;
+    margin: 5%;
+}
+#img-div{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#image{
+    margin: 2%;
+}
+#img-caption{
+    text-align: center;
+    font-size: 1.3em;
+}
+#tribute-info{
+    text-align: justify;
+}
+p{
+    font-size: 1.5em;
+    margin: 5%;
+}
+
+h2{
+    text-align: center;
+    margin: 5%;
+}
+
+@media (max-width: 820px) {
+    #title{
+        font-size: 2.1em;
+    }
+    #tribute-info{
+        font-size: 1.1em;
+    }
+    h2{
+        font-size: 1.1em;
+    }
+}
